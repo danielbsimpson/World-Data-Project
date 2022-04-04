@@ -62,6 +62,7 @@ And a regression was applied after highly correlated independent variables were 
 ## Prediction
 
 The last part was to see how the model would perform as a predictor using sci-kit learn. A train/test split was done, and then a regression was applied. The residuals were observed:
+
 <img src = "Images/residuals_regression.png" width= "600" height = "500">
 
 #### Regularisation
