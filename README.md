@@ -7,4 +7,9 @@ The project uses two main data sets:
 * [World o Meter](https://www.worldometers.info/world-population/population-by-country/)
 * [Our World in Data](https://ourworldindata.org/)
 
+## The first part of this project was a bit of exploratory data analysis:
+
 ![](Images/hist_plot.png)
+
+![](Images/scatter.png)
+
