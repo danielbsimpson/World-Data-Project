@@ -51,6 +51,9 @@ As is observed above, degree 2 polynomial fit the data much better and was thus 
 
 <img src = "Images/polynomial_regression.png" width= "600" height = "500">
 
+We can see that both the original GDP and Polynomial features made it into the model. Unfortunately, it is much more difficult to interpret. Comparatively we can see that the model is predicting that for every additional cm for average female height, the life expectancy is going to go down by 0.2 years.
+
+
 ## Multicollinearity
 Next multicollinearity was explored:
 
