@@ -47,7 +47,8 @@ The features identified above were used to apply Polynomial Features using sci-k
 
 As is observed above, degree 2 polynomial fit the data much better and was thus incorporated into the model later down in the notebook.
 ### The final model after trimming high p-value features:
-![](polynomial_regression.png)
+
+![](Images/polynomial_regression.png)
 
 ## Multicollinearity
 Next multicollinearity was explored:
