@@ -62,13 +62,13 @@ And a regression was applied after highly correlated independent variables were 
 ## Prediction
 
 The last part was to see how the model would perform as a predictor using sci-kit learn. A train/test split was done, and then a regression was applied. The residuals were observed:
-<img src = "Images/residuals_regression.png" width= "500" height = "500">
+<img src = "Images/residuals_regression.png" width= "600" height = "500">
 
 #### Regularisation
 The last part was to apply regularisation techniques like lasso:
 
-<img src = "Images/residuals_lasso.png" width= "500" height = "500">
+<img src = "Images/residuals_lasso.png" width= "600" height = "500">
 
 And then observe the prediction error:
 
-<img src = "Images/Prediction_error_lasso.png" width= "500" height = "500">
+<img src = "Images/Prediction_error_lasso.png" width= "600" height = "500">
