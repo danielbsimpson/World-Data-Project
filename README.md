@@ -59,10 +59,12 @@ Next multicollinearity was explored:
 And a regression was applied after highly correlated independent variables were trimmed:
 ![](Images/multicollinearity_regression.png)
 
+## Prediction
 
 The last part was to see how the model would perform as a predictor using sci-kit learn. A train/test split was done, and then a regression was applied. The residuals were observed:
 ![](Images/residuals_regression.png)
 
+#### Regularisation
 The last part was to apply regularisation techniques like lasso:
 
 ![](Images/residuals_lasso.png)
