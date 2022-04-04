@@ -42,33 +42,33 @@ The model is run mulitiple iterations, each time setting a lower and lower thres
 ## Polynomial Features:
 The features identified above were used to apply Polynomial Features using sci-kit learn.
 
-![](Images/polynomial1.png)
+<img src = "Images/polynomial1.png" width= "500" height = "500">
 
-![](Images/polynomial2.png)
+<img src = "Images/polynomial2.png" width= "500" height = "500">
 
 As is observed above, degree 2 polynomial fit the data much better and was thus incorporated into the model later down in the notebook.
 ### The final model after trimming high p-value features:
 
-![](Images/polynomial_regression.png)
+<img src = "Images/polynomial_regression.png" width= "500" height = "500">
 
 ## Multicollinearity
 Next multicollinearity was explored:
 
-![](Images/multicollinearity.png)
+<img src = "Images/multicollinearity.png" width= "500" height = "500">
 
 And a regression was applied after highly correlated independent variables were trimmed:
-![](Images/multicollinearity_regression.png)
+<img src = "Images/multicollinearity_regression.png" width= "500" height = "500">
 
 ## Prediction
 
 The last part was to see how the model would perform as a predictor using sci-kit learn. A train/test split was done, and then a regression was applied. The residuals were observed:
-![](Images/residuals_regression.png)
+<img src = "Images/residuals_regression.png" width= "500" height = "500">
 
 #### Regularisation
 The last part was to apply regularisation techniques like lasso:
 
-![](Images/residuals_lasso.png)
+<img src = "Images/residuals_lasso.png" width= "500" height = "500">
 
 And then observe the prediction error:
 
-![](Images/Prediction_error_lasso.png)
+<img src = "Images/Prediction_error_lasso.png" width= "500" height = "500">
