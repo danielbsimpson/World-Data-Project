@@ -10,7 +10,7 @@ The project uses two main data sets:
 
 ## The first part of this project was a bit of exploratory data analysis:
 
-![](Images/hist_plot.png =250x250)
+<img src = "Images/hist_plot.png" width = "100" height = "100">
 
 ![](Images/scatter.png)
 
