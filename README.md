@@ -42,22 +42,22 @@ The model is run mulitiple iterations, each time setting a lower and lower thres
 ## Polynomial Features:
 The features identified above were used to apply Polynomial Features using sci-kit learn.
 
-<img src = "Images/polynomial1.png" width= "500" height = "500">
+<img src = "Images/polynomial1.png" width= "600" height = "500">
 
-<img src = "Images/polynomial2.png" width= "500" height = "500">
+<img src = "Images/polynomial2.png" width= "600" height = "500">
 
 As is observed above, degree 2 polynomial fit the data much better and was thus incorporated into the model later down in the notebook.
 ### The final model after trimming high p-value features:
 
-<img src = "Images/polynomial_regression.png" width= "500" height = "500">
+<img src = "Images/polynomial_regression.png" width= "600" height = "500">
 
 ## Multicollinearity
 Next multicollinearity was explored:
 
-<img src = "Images/multicollinearity.png" width= "500" height = "500">
+<img src = "Images/multicollinearity.png" width= "600" height = "500">
 
 And a regression was applied after highly correlated independent variables were trimmed:
-<img src = "Images/multicollinearity_regression.png" width= "500" height = "500">
+<img src = "Images/multicollinearity_regression.png" width= "600" height = "500">
 
 ## Prediction
 
