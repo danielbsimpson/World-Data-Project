@@ -3,6 +3,7 @@ Multiple Data Projects on world data statistics
 
 This project was inspired by compiling multiple data sets from around the world for every country on earth.
 
+# Regression - Infering relevant features related to Life Expectancy
 The project uses two main data sets:
 * [World o Meter](https://www.worldometers.info/world-population/population-by-country/)
 * [Our World in Data](https://ourworldindata.org/)
@@ -27,7 +28,7 @@ These features are explored for polynomial relationships.
 First the OLS model is built using the original features (no polynomial feautures.
 The model is run mulitiple iterations, each time setting a lower and lower threshhold for the p-value.
 
-## The final model:
+### The final model:
 
 ![](Images/final_regression.png)
 
