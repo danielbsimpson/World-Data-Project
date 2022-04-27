@@ -44,7 +44,7 @@ The model is run mulitiple iterations, each time setting a lower and lower thres
 
 
 
-## ----------------------------------- Stretch -----------------------------------
+## --------------------------------- Stretch ---------------------------------
 
 
 
