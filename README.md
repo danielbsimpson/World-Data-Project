@@ -42,6 +42,12 @@ The model is run mulitiple iterations, each time setting a lower and lower thres
 * Female height and Cell phone subscriptions per 100 individuals have negative coefficients. This implies that as they increase, the life expectancy of that society goes down.
 * Suicide rate and infant mortality also have this effect.
 
+
+
+## ----------------------------------- Stretch -----------------------------------
+
+
+
 ## Polynomial Features:
 The features identified above were used to apply Polynomial Features using sci-kit learn.
 
