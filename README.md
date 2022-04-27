@@ -29,6 +29,7 @@ These features are explored for polynomial relationships.
 ## OLS - Ordinary Least Squares (Regression) 
 First the OLS model is built using the original features (no polynomial feautures.
 The model is run mulitiple iterations, each time setting a lower and lower threshhold for the p-value.
+## Results:
 
 ### The final model:
 
